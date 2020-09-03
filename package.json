@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "publish": "node src/publisher.js",
+    "consume": "node src/consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorkarangwa4/rabbitmq-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorkarangwa4/rabbitmq-app/issues"
+  },
+  "homepage": "https://github.com/victorkarangwa4/rabbitmq-app#readme"
+}
